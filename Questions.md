@@ -1,23 +1,29 @@
 # Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cour)
-Réponse:
+Réponse: Augmente l’audience potentielle, améliore le référencement (SEO), renforce l’image de marque et permet de respecter les obligations légales.
 
 # Q2: Ajouter le screen de votre score :
-Screen:
+Screen: ![alt text](image.png)
 
 # Q3: Est-ce que l'analyse de Lighthouse est suffisante pour évaluer l'Accessibilité de votre Application ?
-Réponse:
+Réponse: Non il manque une vérification manuelle des bonnes pratiques et du visuel du site
 
 # Q4: Combien de fois vous devez utiliser une touche du clavier pour passer le quizz ?
-Réponse:
+Réponse: Minimum 20 fois
 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
+<div class="topnav" role="navigation">
+<div id="quiz" role="main">
+<div class="footer" role="contentinfo">
+<a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+<div id="question" aria-live="polite"></div>
+<img src="/question.png" width="500" height="600" aria-hidden="true">
 
 # Q6: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](image-1.png)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
-Réponse:
+Réponse: L'HTML Semantique est déjà accessible par défault. Utiliser l'aria augmente la declaration de données dans le code + ca peut détruire le site s'il est mal implémenté. 
 
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:

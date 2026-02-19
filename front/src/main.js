@@ -8,8 +8,8 @@ document.querySelector('#app').innerHTML = `
         </div>
 
 
-        <div class="topnav">
-          <a href="#" class="fa fa-facebook"></a>
+        <div class="topnav" role="navigation">
+          <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-google"></a>
           <a href="#" class="fa fa-linkedin"></a>
@@ -36,20 +36,20 @@ document.querySelector('#app').innerHTML = `
             <div class="card">
               <h1>Nom étudiant</h1>
               <h5>description</h5>
-              <div id="quiz">
+              <div id="quiz" role="main">
                 <h2>A TOI DE JOUER</h2>
-                <div id="question"></div>
+                <div id="question" aria-live="polite"></div>
                 <div id="proposals"></div>
               </div>
             </div>
           </div>
           <div class="rightcolumn">
             <div class="card">
-              <img src="/question.png" width="500" height="600">
+              <img src="/question.png" width="500" height="600" alt="Illustration d'une question de quiz">
             </div>
         </div>
 
-        <div class="footer">
+        <div class="footer" role="contentinfo">
           <h2>@2024</h2>
         </div>
 `

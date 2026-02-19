@@ -53,13 +53,13 @@ Réponse: On s'y perd enormement suivant le type d'altération
 Screen:![alt text](image-4.png)
 
 # Q17:  Proposition 1
-Description:
-Nb d'actions gagnée : 
+Description: Déplacer tous les liens de réseaux sociaux (20 liens) de la navigation principale vers le footer et ajouter tabindex="-1" pour les exclure de la navigation au clavier. Soucis potentiel si l'utilisateur veut cliquer sur un lien.
+Nb d'actions gagnée : jusqu'à 20 actions Tab 
 
 # Q18:  Proposition 2
-Description:
-Nb d'actions gagnée : 
+Description: Déplacer le bouton "More About Us" du header vers le footer.
+Nb d'actions gagnée : 1 action Tab 
 
 # Q19:  Proposition 3
-Description:
-Nb d'actions gagnée : 
+Description: Implémenter un focus automatique sur la première proposition de réponse à chaque nouvelle question avec document.getElementById().focus(). Ajouter aria-live="assertive" sur le container des propositions pour annoncer automatiquement les nouvelles options au lecteur d'écran. Cela évite à l'utilisateur de naviguer manuellement jusqu'aux boutons de réponse.
+Nb d'actions gagnée : Variable selon le nombre de questions

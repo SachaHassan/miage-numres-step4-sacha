@@ -26,31 +26,31 @@ Screen: ![alt text](image-1.png)
 Réponse: L'HTML Semantique est déjà accessible par défault. Utiliser l'aria augmente la declaration de données dans le code + ca peut détruire le site s'il est mal implémenté. 
 
 # Q8: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](image-2.png)
 
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
-Réponse:
+Réponse: Il n'augmente pas ou peu car le code n'est pas "propre" + on a toujours des soucis SEO (j'ai un leger meilleur score car j'ai modifié et reorganisé du code)
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
-Réponse:
+Réponse: A
 
 # Q11: Quel est la valeur du score AA :
-Réponse:
+Réponse: #949494 --> Debut pour être bien visible
 
 # Q12: Quel est la valeur du score AAA :
-Réponse:
+Réponse: #b5b5b5 --> Clairement visible
 
 # Q13: Comment pouvez vous changer la valeur du contraste de votre texte ?
-Réponse:
+Réponse: Automatiquement avec l'outil google ou avec le spectre de couleurs
 
 # Q14: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](image-3.png)
 
 # Q15: Êtes vous capable de déterminer visuellement ce qui est un lien ou pas en appliquant chaque altérations ?
-Réponse:
+Réponse: On s'y perd enormement suivant le type d'altération
 
 # Q16: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen:![alt text](image-4.png)
 
 # Q17:  Proposition 1
 Description:

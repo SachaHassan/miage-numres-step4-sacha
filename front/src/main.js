@@ -13,8 +13,8 @@ document.querySelector('#app').innerHTML = `
               <h5>description</h5>
               <div id="quiz" role="main">
                 <h2>A TOI DE JOUER</h2>
-                <div id="question" aria-live="polite"></div>
-                <div id="proposals" aria-live="assertive"></div>
+                <div id="question" aria-live="assertive"></div>
+                <div id="proposals"></div>
               </div>
             </div>
           </div>
